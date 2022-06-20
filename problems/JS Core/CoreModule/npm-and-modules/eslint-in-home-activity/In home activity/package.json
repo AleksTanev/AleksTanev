@@ -1,0 +1,17 @@
+{
+  "name": "eslint-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+   
+  },
+  "keywords": [],
+  "author": "Telerik Academy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "10_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Enigma.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:init": "eslint --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  }
+}

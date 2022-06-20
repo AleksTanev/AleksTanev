@@ -1,0 +1,13 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "run:main": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "Alex Tanev",
+  "license": "ISC"
+}

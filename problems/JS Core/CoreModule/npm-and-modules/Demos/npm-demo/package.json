@@ -1,0 +1,15 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "require - npm demo",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Telerik Academy",
+  "license": "ISC",
+  "dependencies": {
+    "is-number": "^7.0.0"
+  }
+}
