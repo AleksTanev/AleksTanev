@@ -1,7 +1,7 @@
-:tanabata_tree wind_chime :wind_chime: ## Welcome to my repo!:tanabata_tree wind_chime :wind_chime:
+## Welcome to my repo! tanabata_tree  wind_chime
 
-Please make sure to check the things I've been working on.
+crystal_ball Please make sure to check the things I've been working on.
 
-If you have any questions, ideas or suggestions, please send me a pm. 
+fax If you have any questions, ideas or suggestions, please send me a pm. 
 
-You can find me on discord: Alexander.Tanev#3061
+ghost You can find me on discord: Alexander.Tanev#3061
