@@ -1,4 +1,4 @@
-## Welcome to my repo!
+:tanabata_tree wind_chime :wind_chime: ## Welcome to my repo!:tanabata_tree wind_chime :wind_chime:
 
 Please make sure to check the things I've been working on.
 
