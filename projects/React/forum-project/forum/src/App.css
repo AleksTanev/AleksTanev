@@ -1,0 +1,14 @@
+.App {
+  background: white;
+}
+
+.Outlet {
+  width: 108rem;
+  margin: 0 auto;
+}
+
+.no-results {
+  font-size: large;
+  padding-top: 10rem;
+  text-align: center;
+}

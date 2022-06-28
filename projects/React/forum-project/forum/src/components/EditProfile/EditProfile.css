@@ -1,0 +1,99 @@
+.EditProfile {
+  margin-top: 4rem;
+}
+
+.EditProfile .user-details-container label,
+.EditProfile h3 {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.EditProfile p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.EditProfile .user-details-container input {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.EditProfile .user-details-container input,
+.EditProfile p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.EditProfile .user-details-container input:last-of-type {
+  margin-bottom: 0;
+}
+
+.EditProfile .edit-icon {
+  cursor: pointer;
+}
+
+.EditProfile .username {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.EditProfile .profile-container {
+  display: flex;
+  margin-bottom: 4.5rem;
+}
+
+.EditProfile .profile-picture-container {
+  margin-right: 25rem;
+}
+
+.EditProfile .profile-picture .edit-icon {
+  height: 2rem;
+}
+
+.EditProfile .file-upload {
+  position: relative;
+  left: 29rem;
+  bottom: 0rem;
+  color: #2ca595;
+}
+
+.EditProfile .profile-picture img {
+  margin-top: 2rem;
+  height: 29rem;
+  width: 29rem;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+}
+
+.EditProfile .user-details-container .edit-icon {
+  margin-left: 2rem;
+}
+
+.EditProfile button {
+  border-radius: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  height: 4rem;
+}
+
+.profile-save-changes-btn {
+  background-color: #2ca595;
+  color: white;
+  border: none;
+  margin-right: 1.5rem;
+  width: 18rem;
+}
+
+.profile-cancel-btn {
+  background-color: transparent;
+  border: 1px solid #2ca595;
+  width: 11rem;
+  color: #2ca595;
+}
+
+.EditProfile input[type="file"] {
+  display: none;
+}

@@ -1,0 +1,168 @@
+.PostDetails {
+  margin-top: 7rem;
+  display: flex;
+}
+
+.PostDetails .likes {
+  margin-right: 3rem;
+}
+
+.PostDetails .post-content {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.PostDetails .title-and-author {
+  display: flex;
+  align-items: bottom;
+}
+
+.PostDetails .post-title {
+  cursor: default;
+  margin-bottom: 0;
+}
+
+.PostDetails .post-author {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.PostDetails .comments {
+  margin-top: 3rem;
+}
+
+.edit-post-btn,
+.delete-post-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.edit-post-btn {
+  margin-right: 2rem;
+}
+
+.edit-post-btn > .edit-icon,
+.delete-post-btn > .delete-icon {
+  padding: 0.5rem;
+  height: 1.8rem;
+  color: #2ca595;
+}
+
+.del-edit-btn-wrapper {
+  display: flex;
+}
+
+.title-author-and-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-btn {
+  border: none;
+  border-radius: 2rem;
+  background-color: #2ca595;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  border: 1px solid #2ca595;
+  border-radius: 2rem;
+  background-color: none;
+  color: #2ca595;
+  cursor: pointer;
+}
+
+.edit-box-text-field {
+  height: 30rem;
+  width: 108rem;
+  resize: none;
+}
+
+.tags {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.tag-name {
+  display: flex;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  background-color: #2ca595;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+.tag-box .remove-btn {
+  margin-left: 1rem
+}
+
+.add-new-tags-btn {
+  height: 3.2rem;
+  color: #2ca595;
+}
+
+.tag-edit-field {
+  margin-right: 1rem;
+}
+
+.PostDetails button {
+  border-radius: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  height: 4rem;
+}
+
+.submit-btn {
+  border: none;
+  background-color: #2ca595;
+  margin-right: 1.5rem;
+  width: 11rem;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  border: 1px solid #2ca595;
+  width: 11rem;
+}
+
+.submit-cancel-wrapper {
+  margin-left: auto;
+}
+
+.add-comment-container {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.add-comment-box {
+  margin: 0;
+  font-size: 1.8rem;
+  padding: 1rem;
+  width: 102rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+  resize: none;
+}
+
+.add-comment-btn {
+  color: white;
+  background-color: #2ca595;
+  width: 15rem;
+  margin-left: auto;
+  border: none;
+}
+
+hr {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.comment-list {
+  margin-bottom: 10rem;
+}

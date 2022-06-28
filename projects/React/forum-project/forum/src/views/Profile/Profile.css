@@ -1,0 +1,25 @@
+.Profile {
+  margin-top: 7rem;
+}
+
+.profile-tabs  span {
+  cursor: pointer;
+  color: #92cdc4;
+  font-size: 2.4rem;
+  padding: 0 1rem;
+}
+
+.profile-tabs .active {
+  color: #177265;
+}
+
+.profile-tabs {
+  padding-bottom: 1.5rem;
+  border-bottom: 5px solid #177265;
+  display: flex;
+  font-weight: bold;
+}
+
+.tab-container {
+  margin-top: 4rem;
+}

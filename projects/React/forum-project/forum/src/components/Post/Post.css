@@ -1,0 +1,132 @@
+.Post {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #177265;
+}
+
+.post-info-left {
+  display: flex;
+  align-items: center;
+}
+
+.title-tags-comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-info-right {
+  display: flex;
+  align-items: center;
+}
+
+.date-posted {
+  display: flex;
+}
+
+.post-author {
+  display: flex;
+}
+
+.comments-and-likes {
+  display: flex;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.likes {
+  width: 8rem;
+}
+
+.dislike-arrow,
+.like-arrow {
+  height: 2.5rem;
+}
+
+.post-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.likes-count {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.tags {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tags p {
+  padding: 0.5rem 2rem;
+  background-color: #2ca595;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+.comments-icon,
+.likes-icon {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.likes-icon {
+  margin-left: 3rem;
+}
+
+.comments-and-likes p {
+  font-size: 1.6rem;
+}
+
+.post-author {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 2rem;
+}
+
+.post-author .author-name {
+  font-size: 2.4rem;
+}
+
+.date-posted {
+  width: 22rem;
+  display: flex;
+  align-items: center;
+}
+
+.date-posted p {
+  font-size: 1.8rem;
+}
+
+.clock-icon {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.likes .active {
+  color: red;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
+}

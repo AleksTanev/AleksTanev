@@ -1,0 +1,61 @@
+.Login {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.LoginForm {
+  margin-top: 4.5rem;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginForm label {
+  font-size: 2rem;
+}
+
+.LoginForm input {
+  height: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+
+.LoginForm label:nth-of-type(2) {
+  margin-top: 1.5rem;
+}
+
+.log-in-form-buttons {
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.log-in-form-buttons a {
+  color: #2ca595;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-log-in-btn {
+  margin-right: auto;
+  background-color: #2ca595;
+  color: white;
+  border: none;
+  height: 4rem;
+  width: 11rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}

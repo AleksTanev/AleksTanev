@@ -1,0 +1,14 @@
+.search-container {
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.user-result {
+  font-size: 2rem;
+  font-weight: bold;
+}

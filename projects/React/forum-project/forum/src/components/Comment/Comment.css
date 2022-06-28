@@ -1,0 +1,109 @@
+.Comment {
+  margin-bottom: 4rem;
+}
+
+.Comment .comment-author {
+  color: rgba(0, 0, 0);
+  font-weight: bold;
+}
+
+.Comment .elapsed-time {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.Comment .comment-content {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Comment .edit-post-btn {
+  cursor: pointer;
+}
+
+.Comment .submit-btn {
+  cursor: pointer;
+}
+
+.Comment .cancel-btn {
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Comment .edit-box-text-field {
+  height: 10em;
+  width: 108rem;
+  margin-bottom: 1.5rem;
+  resize: none;
+}
+
+.Comment .likes-icon {
+  margin-left: 0;
+}
+
+.Comment .number-of-likes {
+  font-size: 1.6rem;
+}
+
+.comment-top {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.comment-top .author-wrapper {
+  display: flex;
+}
+
+.comment-top .buttons-wrapper {
+  margin-left: 2rem;
+}
+
+.comment-top span {
+  margin: 0 0.5rem;
+}
+
+.edit-comment-btn,
+.delete-comment-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.edit-comment-btn {
+  margin-right: 1rem;
+}
+
+.edit-comment-btn > .edit-icon,
+.delete-comment-btn > .delete-icon {
+  padding: 0.5rem;
+  height: 1.5rem;
+  color: #2ca595;
+}
+
+.edit-box {
+  width: 108rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.edit-box .buttons {
+  align-self: flex-end;
+  position: absolute;
+  bottom: -4rem;
+}
+
+.Comment .submit-btn {
+  background-color: #2ca595;
+  color: white;
+  border: none;
+}
+
+.Comment .cancel-btn {
+  background-color: none;
+  color: #2ca595;
+  border: 1px solid #2ca595;
+}
