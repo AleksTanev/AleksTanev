@@ -1,7 +1,6 @@
 function findSumTwoNumbers (array, targetSum) {
-
-  let i = 0;
   const mapNumbers = [];
+  let i = 0;
 
   while (i < array.length) {
     let difference = targetSum - array[i];
