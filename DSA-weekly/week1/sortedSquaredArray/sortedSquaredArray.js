@@ -1,20 +1,20 @@
 function sortArraySquared (array) {
 
   return array
-    .reduce((acc, el) => {
+    .reduce((acc, val) => {
 
-      if (el < 0) {
-        acc.negatives.push(Math.abs(el));
-      } else if (el > acc.negatives[acc.negatives.length -1]) {
-        let negativeAdded = acc.negatives.pop();
+      if (val < 0) {
+        acc.stack.push(Math.abs(val));
+      } else if (val > acc.stack[acc.stack.length -1]) {
+        const negativeAdded = acc.stack.pop();
         acc.sorted.push(Math.pow(negativeAdded,2));
-        acc.sorted.push(Math.pow(el, 2));
+        acc.sorted.push(Math.pow(val, 2));
       } else {
-        acc.sorted.push(Math.pow(el,2));
+        acc.sorted.push(Math.pow(val,2));
       }
 
       return acc;
-    }, { negatives: [], sorted: []})
+    }, { stack: [], sorted: []})
     .sorted;
 };
 
