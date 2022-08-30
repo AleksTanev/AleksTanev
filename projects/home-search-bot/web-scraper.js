@@ -14,7 +14,20 @@
 // // loadWebsite();
 
 // // const $ = cheerio.get();
+
+const puppeteer = require('puppeteer')
 async function loadWebsite() {
 
-  await window.open("https://www.imot.bg/")
-}
+  // console.warn(`Hi`)
+  // window.open("https://www.imot.bg/");
+
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
+  page.goto('http://imot.bg')
+  // const content = await page.content()
+  // console.log(content);
+
+};
+
+loadWebsite().catch(console.error)

@@ -2,14 +2,17 @@
   "name": "home-search-bot",
   "version": "1.0.0",
   "description": "bot",
-  "type": "module",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 9300"
   },
   "author": "AT",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^3.2.10"
+    "http-server": "^14.1.1",
+    "node-fetch": "^3.2.10",
+    "puppeteer": "^16.2.0",
+    "require": "^2.4.20"
   }
 }
